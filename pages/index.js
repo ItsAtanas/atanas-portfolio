@@ -1,4 +1,5 @@
 import Head from "next/head";
+import BackgroundMagic from "@/components/BackgroundMagic";
 
 export default function Home() {
   return (
@@ -14,7 +15,39 @@ export default function Home() {
         />
       </Head>
       <main>
-       <p>t1</p>
+        <manue>
+          <div>
+            <div className="mt-10">
+              <ul className="flex flex-row justify-center">
+                <li>
+                  <a>
+                    <span className="text-white mr-10">// home</span>
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <span className="text-white mr-10">// expertise</span>
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <span className="text-white mr-10">// work</span>
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <span className="text-white mr-10">// experience</span>
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <span className="text-white mr-10">// contact</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </manue>
       </main>
     </>
   );
